@@ -147,5 +147,6 @@ a{
 iframe {
     width: 100%;
     height: 500px;
-    border: 1px;
+    order: black solid 1px;
+    padding: 5px;
 }
