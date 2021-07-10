@@ -1,8 +1,11 @@
-.panel.panel-refresh {
+.panel-eqs.panel-refresh-eqs {
     position: relative;
 }
+.panel-eqs.panel-default-eqs.card-view-eqs.panel-refresh-eqs{
+    background-color:  #f9b122 !important;
+}
 
-.panel-title {
+.panel-title-eqs {
     margin: 0;
     padding: 0;
     border: 0;
@@ -14,27 +17,27 @@
     text-transform: capitalize;
 }
 
-.card-view {
+.card-view-eqs {
     background: #fff;
     margin-bottom: 12px;
-    border: 1px solid rgba(33, 33, 33, 0.1);
-    border-radius: 2px;
+    border: 1px solid rgba(33, 33, 33, 0.5);
+    border-radius: 10px;
     box-shadow: none;
-    /*padding: 15px 15px 0;*/
+    padding: 15px 15px 0;
     margin-left: -9px;
     margin-right: -9px;
 }    
-.card-view.panel > .panel-heading {
+.card-view-eqs.panel-eqs > .panel-heading {
     border: none;
     color: inherit;
     border-radius: 0;
-    margin: -5px -15px 0;
-    padding: 20px 30px 10px 30px;
+    margin: -15px -15px 0;
+    padding: 20px 15px;
 }
-.card-view.panel > .panel-heading.small-panel-heading {
+.card-view-eqs.panel-eqs > .panel-heading.small-panel-heading {
     padding: 11px 15px;
 }
-.card-view.panel > .panel-heading .head-overlay {
+.card-view-eqs.panel-eqs > .panel-heading .head-overlay {
     background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
     height: 100%;
     left: 0;
@@ -42,32 +45,32 @@
     top: 0;
     width: 100%;
 }
-.card-view.panel .panel-body {
-    padding: 0px;
+.card-view-eqs.panel-eqs .panel-body {
+    padding: 5px 0 20px;
 }
-.card-view.panel.panel-default > .panel-heading {
+.card-view-eqs.panel-eqs.panel-default-eqs > .panel-heading {
     background: transparent;
 }
-.card-view.panel.panel-default.border-panel > .panel-heading, .card-view.panel.panel-default.panel-tabs > .panel-heading {
+.card-view-eqs.panel-eqs.panel-default-eqs.border-panel > .panel-heading, .card-view-eqs.panel-eqs.panel-default-eqs.panel-tabs > .panel-heading {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
 }
-.card-view.panel.panel-default.border-panel .panel-body, .card-view.panel.panel-default.panel-tabs .panel-body {
+.card-view-eqs.panel-eqs.panel-default-eqs.border-panel .panel-body, .card-view-eqs.panel-eqs.panel-default-eqs.panel-tabs .panel-body {
     padding-top: 20px; 
 }
-.card-view.panel.panel-default.panel-tabs > .panel-heading {
+.card-view-eqs.panel-eqs.panel-default-eqs.panel-tabs > .panel-heading {
     padding-bottom: 0; 
 }
-.card-view.panel.panel-default.panel-tabs .nav-tabs {
+.card-view-eqs.panel-eqs.panel-default-eqs.panel-tabs .nav-tabs {
     border-bottom: none; 
 }
-.card-view.panel.panel-default.panel-tabs .nav-tabs > li > a {
+.card-view-eqs.panel-eqs.panel-default-eqs.panel-tabs .nav-tabs > li > a {
     padding: 0 5px 12px;
     float: left; 
 }
-.card-view.panel.panel-info .panel-body, .card-view.panel.panel-success .panel-body, .card-view.panel.panel-warning .panel-body, .card-view.panel.panel-danger .panel-body, .card-view.panel.panel-primary .panel-body, .card-view.panel.panel-inverse .panel-body {
+.card-view-eqs.panel-eqs.panel-info .panel-body, .card-view-eqs.panel-eqs.panel-success .panel-body, .card-view-eqs.panel-eqs.panel-warning .panel-body, .card-view-eqs.panel-eqs.panel-danger .panel-body, .card-view-eqs.panel-eqs.panel-primary .panel-body, .card-view-eqs.panel-eqs.panel-inverse .panel-body {
     padding-top: 20px; 
 }
-.card-view.panel.fullscreen {
+.card-view-eqs.panel-eqs.fullscreen {
     height: 100%;
     left: 0;
     margin: 0;
@@ -77,15 +80,15 @@
     width: 100%;
     z-index: 1040;
 }
-.card-view.panel.fullscreen > .panel-heading .pull-right > a, .card-view.panel.fullscreen > .panel-heading .pull-right .dropdown {
+.card-view-eqs.panel-eqs.fullscreen > .panel-heading .pull-right > a, .card-view-eqs.panel-eqs.fullscreen > .panel-heading .pull-right .dropdown {
     opacity: 0;
     visibility: hidden;
 }
-.card-view.panel.fullscreen > .panel-heading .pull-right > a.full-screen, .card-view.panel.fullscreen > .panel-heading .pull-right .dropdown.full-screen {
+.card-view-eqs.panel-eqs.fullscreen > .panel-heading .pull-right > a.full-screen, .card-view-eqs.panel-eqs.fullscreen > .panel-heading .pull-right .dropdown.full-screen {
     opacity: 1;
     visibility: visible; 
 }
-.card-view.panel.fullscreen > .panel-heading .pull-right > a.full-screen i.zmdi-fullscreen::before, .card-view.panel.fullscreen > .panel-heading .pull-right .dropdown.full-screen i.zmdi-fullscreen::before {
+.card-view-eqs.panel-eqs.fullscreen > .panel-heading .pull-right > a.full-screen i.zmdi-fullscreen::before, .card-view-eqs.panel-eqs.fullscreen > .panel-heading .pull-right .dropdown.full-screen i.zmdi-fullscreen::before {
     content: "\f16c"; 
 }
 
@@ -118,13 +121,15 @@
 .txt-dark {
     color: #212121 !important;
 }
+.txt-light{
+    color: #fff !important;
+}
 h6, .panel-title {
     font-size: 16px;
     line-height: 24px;
     text-transform: capitalize;
 }
-a{
-    color: #212121;
+.pull-left.inline-block.mr-15.chat-collapse{
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -133,6 +138,7 @@ a{
     font: inherit;
     vertical-align: baseline;
 }
+
 .inline-block {
     display: inline-block !important;
 }
@@ -146,7 +152,26 @@ a{
 }
 iframe {
     width: 100%;
-    height: 500px;
-    border: black solid 1px;
-    padding: 5px;
+    height: 300px;
+    background-color: #fff;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.eqs-collapsible {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+
+/* Style the collapsible content. Note: hidden by default */
+#collapse_chat {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
 }
