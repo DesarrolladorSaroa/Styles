@@ -46,7 +46,7 @@
     width: 100%;
 }
 .card-view-eqs.panel-eqs .panel-body {
-    padding: 5px 0 20px;
+    padding: 5px 0 0px;
 }
 .card-view-eqs.panel-eqs.panel-default-eqs > .panel-heading {
     background: transparent;
