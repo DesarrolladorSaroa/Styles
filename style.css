@@ -183,6 +183,6 @@ iframe {
     z-index: 1000;
 }
 
-panel-wrapper.show{
+#collapse_chat.show{
     display:block !important;
 }
