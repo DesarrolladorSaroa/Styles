@@ -175,3 +175,10 @@ iframe {
     display: none;
     overflow: hidden;
 }
+
+.chatbot-frame {
+    position: fixed;
+    right: 0 px;
+    bottom: 0 px;
+    z-index: 1000;
+}
