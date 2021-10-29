@@ -178,7 +178,7 @@ iframe {
 
 .chatbot-frame {
     position: fixed;
-    right: 0 px;
-    bottom: 0 px;
+    right: 0 px !important;
+    bottom: 0 px !important;
     z-index: 1000;
 }
