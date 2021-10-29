@@ -172,7 +172,7 @@ iframe {
 /* Style the collapsible content. Note: hidden by default */
 #collapse_chat {
     padding: 0 0px;
-/*    display: none;*/
+    display: none;
     overflow: hidden;
 }
 
@@ -181,4 +181,8 @@ iframe {
     right: 0 px !important;
     bottom: 0 px !important;
     z-index: 1000;
+}
+
+panel-wrapper.show{
+    display:block !important;
 }
