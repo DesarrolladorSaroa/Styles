@@ -1,3 +1,19 @@
+.btn-chatbot {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#chatbot_container {
+    position: fixed; 
+    right: 0px; 
+    bottom: 0px;
+}
+
+.chatbot_hidden {
+    bottom: -400px !important;
+}
+
 .panel-eqs.panel-refresh-eqs {
     position: relative;
 }
