@@ -222,6 +222,6 @@ iframe {
     display:block !important;
 }
 
-.dashicons-testimonial:before{
-    content: "\f473";
+.txt-white{
+    text-color: 'white';
 }
