@@ -221,3 +221,7 @@ iframe {
 #collapse_chat.show{
     display:block !important;
 }
+
+.dashicons-testimonial:before{
+    content: "\f473";
+}
