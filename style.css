@@ -27,7 +27,6 @@ a{text-decoration:none;color:#fff;margin:0 10px;}
     right: 0px; 
     bottom: 0px;
     z-index: 100000000000000;
-    max-height: 400px;
 }
 
 .chatbot_hidden {
