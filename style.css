@@ -27,6 +27,11 @@ a{text-decoration:none;color:#fff;}
     right: 0px; 
     bottom: 0px;
     z-index: 100000000000000;
+    background-color: #00cdae;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 3px 3px 0 0 #00ae94;
+    margin: 5px;
 }
 
 .chatbot_hidden {
@@ -82,6 +87,7 @@ a{text-decoration:none;color:#fff;}
 }
 .card-view-eqs.panel-eqs .panel-body {
     padding: 5px 0 0px;
+    margin: 0px 10px 11px 0px;
 }
 .card-view-eqs.panel-eqs.panel-default-eqs > .panel-heading {
     background: transparent;
@@ -230,5 +236,4 @@ iframe {
 .panel-heading{
     margin: 10px;
     padding: 5px;
-    border: 1px solid black;
 }
