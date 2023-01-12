@@ -164,7 +164,8 @@ limitations under the License.
       const res = await gapi.client.drive.files.get({
         'fileId': fileId,
         'fields': '*',
-		'alt': 'media',
+	'alt': 'media',
+	'content-type': 'blob'
       });
 	  console.log(res.body);
       text += `Drive API response for first document: \n${JSON.stringify(res.result, null, 2)}\n`;
