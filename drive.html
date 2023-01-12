@@ -166,6 +166,7 @@ limitations under the License.
         'fields': '*',
 		'alt': 'media',
       });
+	  console.log(res);
       text += `Drive API response for first document: \n${JSON.stringify(res.result, null, 2)}\n`;
       window.document.getElementById('content').innerText = text;
     }
